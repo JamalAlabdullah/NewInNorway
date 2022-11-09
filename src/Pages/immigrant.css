@@ -1,0 +1,14 @@
+.btn.bt{
+    color: #2b4aa9;
+    background:#e1bee7;
+    background: -webkit-linear-gradient(to right, #c1cdf1,#c1cdf1,#e7b1d5,#e7b1d5);
+    background: linear-gradient(to right, #c1cdf1,#c1cdf1,#e7b1d5,#e7b1d5);
+}
+
+
+
+
+.card.m{
+    background-color: seashell;
+}
+

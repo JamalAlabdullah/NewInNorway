@@ -1,0 +1,37 @@
+.navbar-nav{
+    margin-left: auto;
+    
+   
+   
+}
+
+
+#titletext{
+    margin-top: 40px;
+    color: #cb52a2;
+  
+   
+   
+}
+
+.navbar {
+    margin-bottom: 20px; 
+   
+    background:#e1bee7;
+    background: -webkit-linear-gradient(to right, #92a7e7,#92a7e7,#d063ab,#d063ab);
+    background: linear-gradient(to right, #92a7e7,#92a7e7,#d063ab,#d063ab);
+  }
+  
+
+#logoImage{
+    height: 40px;
+  
+  
+ 
+  
+}
+
+.nav-link{
+    color: aqua;
+    padding: 40px;
+}

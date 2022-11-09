@@ -1,0 +1,64 @@
+
+.text-center{
+    margin-top: 50px;
+    background:#e1bee7;
+    background: -webkit-linear-gradient(to right, #92a7e7,#92a7e7,#d063ab,#d063ab);
+    background: linear-gradient(to right, #92a7e7,#92a7e7,#d063ab,#d063ab);
+}
+
+.logo-image{
+   
+    height: 100px;
+    margin-left: 10px;
+    margin-top: -40px;
+   
+}
+
+
+.describtion{
+   margin-top: -20px;
+   font-size: 0.8rem;
+   margin-left: 20px;
+}
+
+.footerContainer.nn{
+    margin-top:100px;
+   
+    
+    
+}
+
+
+.footerContainer{
+}
+
+
+
+.Link-text-color{
+    color: black;
+}
+
+
+.kontakt-title{
+    color:black;
+}
+.social-title{
+color:black;
+}
+.lenker-title{
+    color:black;
+}
+
+
+
+
+.text{
+   color: red;
+}
+.insta{
+    color: white;
+    background-color:#E5484B;
+    padding: 0.1ch;
+    border-radius: 4px;
+
+}
