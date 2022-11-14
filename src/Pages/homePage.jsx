@@ -71,7 +71,7 @@ class HomePage extends Component {
           </div>
           <div className="card-body" >
             <h2 className="title" style={{fontSize:25}}>Weather</h2>
-            <p className="card-text">Norway is a cold Scandinavian country,so maybe you need to check the weather where you go... </p>
+            <p className="card-text">Norway is a cold Scandinavian country,that's why it is important to check the weather </p>
             <button className="btn bt" onClick={this.handlesWeatherPage}>
               Read more
             </button>

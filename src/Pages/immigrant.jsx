@@ -52,7 +52,7 @@ class Immigrant extends Component {
          <img style ={{maxWidth:'100%'}}src={placeImage} alt="#"></img>
        </div>
        <div className="card-body" >
-         <h2 className="title" style={{fontSize:25}}>Place</h2>
+         <h2 className="title" style={{fontSize:25}}>Property</h2>
 
          <button className="btn bt" onClick={this}>
          Read more
