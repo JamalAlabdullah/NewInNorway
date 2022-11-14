@@ -1,0 +1,80 @@
+
+.container1 {
+  width: 50vw;
+  max-width: 37.5em;
+  background-color:#d574b4;
+  padding: 6em 3em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.inp-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 1.2em;
+}
+
+
+.lableTilte{
+    margin-right: 10px;
+}
+label {
+  color: #d5d5d5;
+  display: block;
+  font-weight: 600;
+}
+input[type="date"] {
+  font-size: 16px;
+  padding: 1em;
+  color: #242831;
+  border: none;
+  outline: none;
+  border-radius: 0.8em;
+  margin-top: 0.6em;
+}
+::-webkit-calendar-picker-indicator {
+  background-color:#efcbe3;
+  padding: 0.2em;
+  cursor: pointer;
+  border-radius: 0.1em;
+}
+button {
+  display: block;
+  color: #2b4aa9;
+    background:#e1bee7;
+    background: -webkit-linear-gradient(to right, #c1cdf1,#c1cdf1,#e7b1d5,#e7b1d5);
+    background: linear-gradient(to right, #c1cdf1,#c1cdf1,#e7b1d5,#e7b1d5);
+  color: #16191e;
+  font-size: 18px;
+  margin: 1em auto 2em auto;
+  border: none;
+  padding: 0.7em 2em;
+  border-radius: 0.3em;
+  font-weight: 600;
+}
+
+#output {
+  background-color: rgba(255, 255, 255, 0.15);
+  text-align: center;
+  padding: 1em;
+  color: #ffffff;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  border-radius: 0.8em;
+}
+#output span {
+  color: #365dd4;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+@media screen and (max-width: 550px) {
+  .container {
+    padding: 4em 2em;
+  }
+  .inp-wrapper {
+    flex-direction: column;
+  }
+ 
+}
+
