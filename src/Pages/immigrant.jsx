@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-
 import economyImage from "../Assets/ImigrantsImages/economy.jpg";
 import marriageImage from "../Assets/ImigrantsImages/marriage.jpg";
 import placeImage from "../Assets/ImigrantsImages/place.jpg";
@@ -9,8 +8,14 @@ import workImage from "../Assets/ImigrantsImages/work.jpg";
 
 import "./immigrant.css"
 
+
+
+
 class Immigrant extends Component {
-    state = {  } 
+
+
+  handleResidenceDoc() {window.location='/residenceDoc';}
+  
     render() { 
        // return (<h1>Immigrant page </h1>);
        return <div className='container' style={{marginTop:'40px'}}> 
@@ -24,7 +29,7 @@ class Immigrant extends Component {
        <div className="card-body" >
          <h2 className="title" style={{fontSize:25}}> Residence Documents</h2>
 
-         <button className="btn bt" onClick={this}>
+         <button className="btn bt" onClick={this.handleResidenceDoc}>
           Read more
          </button>
        </div>

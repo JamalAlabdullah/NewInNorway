@@ -2,24 +2,18 @@ import React, { Component } from 'react';
 import { Route , Switch, Redirect} from 'react-router-dom';
 import {ToastContainer}  from 'react-toastify';
 import jwtDecode from 'jwt-decode';
-
+// ------the home page imports --------------
 import ContactUs from './Pages/contactUs';
 import HomePage from './Pages/homePage';
 import AboutUs from './Pages/aboutUs';
 import NotFound from './Pages/notFound';
 import NavBar from './Layouts/navBar';
 import Footer from './Layouts/footer';
-
 import LoginForm from './components/loginForm';
 import RegisterForm from './components/registerForm';
 import Logout from './components/logout';
-
-
-import 'react-toastify/dist/ReactToastify.css';
-import './App.css';
-
-
-
+//----------------------------------------------------
+// ------- imports for home page cards-------------------
 import Immigrant from './Pages/immigrant';
 import SportPage from './Pages/sportPage';
 import WeatherPage from './Pages/weatherPage';
@@ -28,8 +22,14 @@ import HealthPage from './Pages/healthPage';
 import PoliticPage from './Pages/politicPage';
 import Education from './Pages/educationPage';
 import TrafficPage from './Pages/trafficPage';
-
 import SocialPage from './Pages/socialPage';
+//----------------------------------------------------
+import 'react-toastify/dist/ReactToastify.css';
+import './App.css';
+
+// ----imports for immigrants life page---------------
+import ResidenceDocument from './Pages/residenceDoc';
+//----------------------------------------------------
 
 
 
@@ -59,8 +59,13 @@ class App extends Component {
         <Switch>
         <Route path="/loginForm"  component={LoginForm}/>
         <Route path="/logout"  component={Logout}/>
+        <Route path="/contactUs" component={ContactUs}/>
+        <Route path="/aboutUs" component={AboutUs}/>
+        <Route path="/footer" component={Footer}/>
+        <Route path="/register" component={RegisterForm}/>
+        <Route path="/homePage"  component={HomePage}/>
 
-
+      {/*------------Routes for home page cards----------- */}
         <Route path="/immigrant"  component={Immigrant}/>
         <Route path="/sportPage"  component={SportPage}/>
         <Route path="/weatherPage"  component={WeatherPage}/>
@@ -71,15 +76,14 @@ class App extends Component {
         <Route path="/trafficPage"  component={TrafficPage}/>
         <Route path="/socialPage"  component={SocialPage}/>
 
+        {/*------------Routes for immigrants cards----------- */}
+        <Route path="/residenceDoc"  component={ResidenceDocument}/>
 
 
 
 
-        <Route path="/contactUs" component={ContactUs}/>
-        <Route path="/aboutUs" component={AboutUs}/>
-        <Route path="/footer" component={Footer}/>
-        <Route path="/register" component={RegisterForm}/>
-        <Route path="/homePage"  component={HomePage}/>
+
+
        
        
 
