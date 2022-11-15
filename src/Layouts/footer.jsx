@@ -39,7 +39,7 @@ class Footer extends Component {
                 </li>
                 <li>
                   <Link to='/kontaktOss' className='Link-text-color'>
-                 Contact US
+                 Contact us
                   </Link>
                 </li>
               </ul>
@@ -54,8 +54,8 @@ class Footer extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link to='/contactUS' className='Link-text-color'>
-                 Linke 1
+                  <Link to='/immigrant' className='Link-text-color'>
+                 Refugee Page
                   </Link>
                 </li>
                 <li>
